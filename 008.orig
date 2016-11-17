@@ -1,0 +1,1 @@
+MediaPlayer=Class.new{define_method(:play){|p|"play\x20"+p.class.name.match(/(.*)Player/)[1].downcase}};AudioPlayer=Class.new;VideoPlayer=Class.new
